@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="rbs-Lu-hER" customClass="MyOrderDateHeaderView" customModule="EcoLive" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9uc-f3-snl">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B9e-SA-0JB">
+                            <rect key="frame" x="8" y="10" width="359" height="35"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOy-4Z-7IP">
+                                    <rect key="frame" x="0.0" y="0.0" width="359" height="35"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="13"/>
+                                    <color key="textColor" red="0.62352941176470589" green="0.62352941176470589" blue="0.62352941176470589" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="EOy-4Z-7IP" firstAttribute="top" secondItem="B9e-SA-0JB" secondAttribute="top" id="DTa-q5-8EM"/>
+                                <constraint firstItem="EOy-4Z-7IP" firstAttribute="leading" secondItem="B9e-SA-0JB" secondAttribute="leading" id="UgT-dt-x3F"/>
+                                <constraint firstAttribute="trailing" secondItem="EOy-4Z-7IP" secondAttribute="trailing" id="yLx-fW-Wye"/>
+                                <constraint firstAttribute="bottom" secondItem="EOy-4Z-7IP" secondAttribute="bottom" id="zrj-gG-KF9"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="B9e-SA-0JB" firstAttribute="leading" secondItem="9uc-f3-snl" secondAttribute="leading" constant="8" id="9LY-Hc-U1l"/>
+                        <constraint firstAttribute="trailing" secondItem="B9e-SA-0JB" secondAttribute="trailing" constant="8" id="dpb-zW-52T"/>
+                        <constraint firstAttribute="bottom" secondItem="B9e-SA-0JB" secondAttribute="bottom" constant="10" id="k3b-zf-ZMU"/>
+                        <constraint firstItem="B9e-SA-0JB" firstAttribute="top" secondItem="9uc-f3-snl" secondAttribute="top" constant="10" id="xqe-fi-15f"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="ctA-Iy-GxR"/>
+            <constraints>
+                <constraint firstItem="9uc-f3-snl" firstAttribute="leading" secondItem="rbs-Lu-hER" secondAttribute="leading" id="DBQ-TW-oOp"/>
+                <constraint firstItem="9uc-f3-snl" firstAttribute="top" secondItem="rbs-Lu-hER" secondAttribute="top" id="EVt-gB-bn6"/>
+                <constraint firstAttribute="bottom" secondItem="9uc-f3-snl" secondAttribute="bottom" id="Has-vL-17f"/>
+                <constraint firstAttribute="trailing" secondItem="9uc-f3-snl" secondAttribute="trailing" id="gWH-Of-Oql"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblDate" destination="EOy-4Z-7IP" id="jjA-dN-fVi"/>
+                <outlet property="vwContent" destination="B9e-SA-0JB" id="yS0-XJ-niz"/>
+            </connections>
+            <point key="canvasLocation" x="247" y="-54"/>
+        </view>
+    </objects>
+</document>

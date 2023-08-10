@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "22BEFFB0-EB80-42D4-B554-DF207F8C1079"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAAE7798-507B-4354-A899-98511C804DEC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Main/ShopOwnerSignupVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "317"
+            endingLineNumber = "317"
+            landmarkName = "callShopOwnerSignupAPI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2678E7BC-DDB3-489F-96EB-BA39F1546F03"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Shop Owner/AddShopInfoVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3900649C-7039-4045-AA6B-BF832D9E4285"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/Module - Shop Registertion /SoleProprietorsCorporationsSelectionVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "actionSoleProprietors(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB216A5A-F96A-4493-B688-5D9AA518CE82"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/SelectLocationMapVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40D8A1C9-DE18-4A8A-AB79-528F4A656579"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/Module - Home View/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08E2AB17-4007-47CB-95BD-594B5C76739D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Send Money/Select Money Types/SelectMoneyTypes.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "btnOptionClick(radioButton:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76485819-A84A-404B-B00D-3FC400F41CB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Main/ShopOwnerSignupVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "472"
+            endingLineNumber = "472"
+            landmarkName = "apiShopCatlist()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8398D2AA-9412-412F-96CA-F09350B05C75"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Shop Owner/Module - Add Product/AddNewProduct/AddProductEcom.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "515"
+            endingLineNumber = "515"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F426A38-9256-4CFE-BBBB-018E2B4E27F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Shop Owner/Module - Add Product/AddNewProduct/AddProductEcom.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "btnSelectProductStatus(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F2B4C1B-8A3D-4080-9D63-4D4070399BAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Shop Owner/Module - Add Product/AddNewProduct/AddProductEcom.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "btnSelectProductStatus(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6EA1631-273A-41AD-99CC-549F3B7A8AF8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Shop Owner/Module - Add Product/AddNewProduct/AddProductEcom.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "btnSaveProductAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6A2ADA3-3E61-4B0B-8BEC-BCEB17EB69E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/NearByProductListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58410F39-E12E-4B37-8F06-A2D70F7F833B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/NearByProductListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2597F126-9677-4C54-A789-409CD8EE00DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Shop Owner/Module - Product List/ShopProductListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "actionAddProductClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C871EF5F-8784-46FB-85CD-5A1A50F67A0C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Shop Owner/Module - Shop List/ShopListInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "274"
+            endingLineNumber = "274"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A10462FB-0DE0-4EFE-AD82-9253D2405AD7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/Module - Shop Registertion /SoleProprietorsRegistrationVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "350"
+            endingLineNumber = "350"
+            landmarkName = "setupShopCategoryDropDown()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1917D1D5-D34B-4FC1-89EE-0E9ECF2B1E91"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/Module - Shop Registertion /SoleProprietorsRegistrationVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "363"
+            endingLineNumber = "363"
+            landmarkName = "setupShopSubCategories()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1917D1D5-D34B-4FC1-89EE-0E9ECF2B1E91 - fe7aa8737702b05a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoLive.SoleProprietorsRegistrationVC.setupShopSubCategories() -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/Module%20-%20Shop%20Registertion%20/SoleProprietorsRegistrationVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "734">
+               </Location>
+               <Location
+                  uuid = "1917D1D5-D34B-4FC1-89EE-0E9ECF2B1E91 - 618e855f720494f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (EcoLive.ShopInfoCategorySubObject) -&gt; Swift.String in EcoLive.SoleProprietorsRegistrationVC.setupShopSubCategories() -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/Module%20-%20Shop%20Registertion%20/SoleProprietorsRegistrationVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51C889D4-2A0D-4C6E-81DC-2B8C3A2D3224"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/Module - Shop Registertion /SoleProprietorsRegistrationVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "379"
+            endingLineNumber = "379"
+            landmarkName = "setupShopSubCategories()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77A49EF4-6D90-4262-A82F-EFB26DD62C1F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/NearByProductListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "77A49EF4-6D90-4262-A82F-EFB26DD62C1F - 697453117c44b94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoLive.NearByProductListVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/NearByProductListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "756">
+               </Location>
+               <Location
+                  uuid = "77A49EF4-6D90-4262-A82F-EFB26DD62C1F - 697453117c44b94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoLive.NearByProductListVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/NearByProductListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "1887">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "349F8F1D-FB87-4553-8518-3101D83BB48A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/NearByProductListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB0E4A1B-445D-4AFF-874F-39FAE0C7CB9F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Cart/CartVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "430"
+            endingLineNumber = "430"
+            landmarkName = "callUpdateCartAPI(SelectedCartObject:SelectedIndex:Quantity:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB0E4A1B-445D-4AFF-874F-39FAE0C7CB9F - fd1aa0e1cbfff330"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in EcoLive.CartVC.callUpdateCartAPI(SelectedCartObject: EcoLive.CartObject, SelectedIndex: Swift.Int, Quantity: Swift.Int) -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Cart/CartVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "430"
+                  endingLineNumber = "430"
+                  offsetFromSymbolStart = "3696">
+               </Location>
+               <Location
+                  uuid = "DB0E4A1B-445D-4AFF-874F-39FAE0C7CB9F - fd1aa0e1cbfff330"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in EcoLive.CartVC.callUpdateCartAPI(SelectedCartObject: EcoLive.CartObject, SelectedIndex: Swift.Int, Quantity: Swift.Int) -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Cart/CartVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "430"
+                  endingLineNumber = "430"
+                  offsetFromSymbolStart = "4176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B980C2FC-34C8-4B74-B4D6-2FAEBFD03065"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/SubProductCategoryVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
+            landmarkName = "callAddFavouriteProductAPI(SelectedProductID:SelectedIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "254F1D8D-2F0C-4D03-A752-330F8F2AB46D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/ProductDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "986"
+            endingLineNumber = "986"
+            landmarkName = "callAddFavouriteProductAPI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8DFEB2E-8A75-4867-AE0E-7435E99DC650"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/ProductWishlistVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "callFavouriteProductListAPI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B8DFEB2E-8A75-4867-AE0E-7435E99DC650 - 246c2cc42f2c05d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in EcoLive.ProductWishlistVC.callFavouriteProductListAPI() -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/ProductWishlistVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "996">
+               </Location>
+               <Location
+                  uuid = "B8DFEB2E-8A75-4867-AE0E-7435E99DC650 - 246c2cc42f2c05d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in EcoLive.ProductWishlistVC.callFavouriteProductListAPI() -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/ProductWishlistVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "1288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEC23B7F-6A3F-447B-AA9C-0F3DE85AFF8C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/ProductWishlistVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "callFavouriteProductListAPI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AEC23B7F-6A3F-447B-AA9C-0F3DE85AFF8C - 246c2cc42f2c0487"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in EcoLive.ProductWishlistVC.callFavouriteProductListAPI() -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/ProductWishlistVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "805">
+               </Location>
+               <Location
+                  uuid = "AEC23B7F-6A3F-447B-AA9C-0F3DE85AFF8C - 246c2cc42f2c0487"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in EcoLive.ProductWishlistVC.callFavouriteProductListAPI() -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/ProductWishlistVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "970">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88955C01-8DDC-48EA-9A2F-D9C6384EB599"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/ProductWishlistVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "callDeleteFavouriteProductAPI(SelectedProductID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "567F00AD-1739-400F-9462-3C675C764BF4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/ProductWishlistVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
+            landmarkName = "callDeleteFavouriteProductAPI(SelectedProductID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB797705-ACF3-4F78-98B9-202809773231"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/ProductWishlistVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "callDeleteFavouriteProductAPI(SelectedProductID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C35A1E81-691C-414C-89AE-8573C3191998"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/ProductDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "821"
+            endingLineNumber = "821"
+            landmarkName = "ProductDetailVC"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F67B9E1D-C5D1-4236-857E-7A1BA3F0BDDD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/ProductWishlistVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "callFavouriteProductListAPI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "937F3166-7249-4A58-84E3-75AF7C05CBF9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/ProductDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "537"
+            endingLineNumber = "537"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "937F3166-7249-4A58-84E3-75AF7C05CBF9 - acbf9c9b8448e294"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoLive.ProductDetailVC.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/ProductDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "537"
+                  endingLineNumber = "537"
+                  offsetFromSymbolStart = "12369">
+               </Location>
+               <Location
+                  uuid = "937F3166-7249-4A58-84E3-75AF7C05CBF9 - acbf9c9b8448e294"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoLive.ProductDetailVC.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/ProductDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "537"
+                  endingLineNumber = "537"
+                  offsetFromSymbolStart = "12676">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F163FB1-794E-4B3C-92A5-2481397C06B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/ProductDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "529"
+            endingLineNumber = "529"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3F163FB1-794E-4B3C-92A5-2481397C06B7 - acbf9c9b8448e39c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoLive.ProductDetailVC.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/ProductDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "529"
+                  endingLineNumber = "529"
+                  offsetFromSymbolStart = "4197">
+               </Location>
+               <Location
+                  uuid = "3F163FB1-794E-4B3C-92A5-2481397C06B7 - acbf9c9b8448e39c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoLive.ProductDetailVC.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Home/ProductDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "529"
+                  endingLineNumber = "529"
+                  offsetFromSymbolStart = "4764">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99B26B24-AA93-41DD-AED7-1CF424B849A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Home/ProductDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "582"
+            endingLineNumber = "582"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7667D4C8-7AA2-48B0-9478-457BF5CB615C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Cart/CartVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "411"
+            endingLineNumber = "411"
+            landmarkName = "callUpdateCartAPI(SelectedCartObject:SelectedIndex:Quantity:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7667D4C8-7AA2-48B0-9478-457BF5CB615C - fd1aa0e1cbfff56e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in EcoLive.CartVC.callUpdateCartAPI(SelectedCartObject: EcoLive.CartObject, SelectedIndex: Swift.Int, Quantity: Swift.Int) -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Cart/CartVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "412"
+                  endingLineNumber = "412"
+                  offsetFromSymbolStart = "1515">
+               </Location>
+               <Location
+                  uuid = "7667D4C8-7AA2-48B0-9478-457BF5CB615C - fd1aa0e1cbfff56e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in EcoLive.CartVC.callUpdateCartAPI(SelectedCartObject: EcoLive.CartObject, SelectedIndex: Swift.Int, Quantity: Swift.Int) -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Cart/CartVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "412"
+                  endingLineNumber = "412"
+                  offsetFromSymbolStart = "1694">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C095561-B8B1-40A8-BF19-32F4D3039739"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Cart/CartVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "413"
+            endingLineNumber = "413"
+            landmarkName = "callUpdateCartAPI(SelectedCartObject:SelectedIndex:Quantity:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "129BF4F2-96B0-4FF6-851D-98B1C10FBAA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcoLive/Controller/Cart/CartVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "416"
+            endingLineNumber = "416"
+            landmarkName = "callUpdateCartAPI(SelectedCartObject:SelectedIndex:Quantity:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "129BF4F2-96B0-4FF6-851D-98B1C10FBAA3 - fd1aa0e1cbfff2c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in EcoLive.CartVC.callUpdateCartAPI(SelectedCartObject: EcoLive.CartObject, SelectedIndex: Swift.Int, Quantity: Swift.Int) -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Cart/CartVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "417"
+                  endingLineNumber = "417"
+                  offsetFromSymbolStart = "2097">
+               </Location>
+               <Location
+                  uuid = "129BF4F2-96B0-4FF6-851D-98B1C10FBAA3 - fd1aa0e1cbfff2c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in EcoLive.CartVC.callUpdateCartAPI(SelectedCartObject: EcoLive.CartObject, SelectedIndex: Swift.Int, Quantity: Swift.Int) -&gt; ()"
+                  moduleName = "EcoLive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepakkumar/Deepak%20/FProject%20/Swift%20App%20Client%20/my_git_apps/eco_live_ios/echo_live_git/Echo_live_app_Swift/EcoLive/Controller/Cart/CartVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "417"
+                  endingLineNumber = "417"
+                  offsetFromSymbolStart = "2367">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

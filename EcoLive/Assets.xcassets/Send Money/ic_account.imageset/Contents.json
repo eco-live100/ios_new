@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "noun-wire-transfer-1414626.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "noun-wire-transfer-1414627.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "noun-wire-transfer-1414628.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

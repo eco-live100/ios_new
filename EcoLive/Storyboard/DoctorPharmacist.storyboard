@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fwH-En-ehg">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Doctor Pharmacist RegisterVC-->
+        <scene sceneID="of9-aA-ZFY">
+            <objects>
+                <viewController storyboardIdentifier="DoctorPharmacistRegisterVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fwH-En-ehg" customClass="DoctorPharmacistRegisterVC" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EUJ-5h-UtP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w8E-Yi-JKU">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="109"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5M-BU-Lub">
+                                        <rect key="frame" x="20" y="67" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="A9M-kh-YaQ"/>
+                                            <constraint firstAttribute="height" constant="30" id="Ugc-0J-FW7"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backbtnAction:" destination="fwH-En-ehg" eventType="touchUpInside" id="SeT-m6-BI1"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctor &amp; Pharmacist Registration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGg-YM-nqi">
+                                        <rect key="frame" x="62" y="72" width="311" height="20"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="xGg-YM-nqi" firstAttribute="leading" secondItem="e5M-BU-Lub" secondAttribute="trailing" constant="12" id="FnF-8U-6mS"/>
+                                    <constraint firstAttribute="trailing" secondItem="xGg-YM-nqi" secondAttribute="trailing" constant="20" id="KCX-q9-NR4"/>
+                                    <constraint firstItem="e5M-BU-Lub" firstAttribute="leading" secondItem="w8E-Yi-JKU" secondAttribute="leading" constant="20" id="UEy-Hq-ddA"/>
+                                    <constraint firstItem="xGg-YM-nqi" firstAttribute="centerY" secondItem="e5M-BU-Lub" secondAttribute="centerY" id="lM6-CJ-JLG"/>
+                                    <constraint firstAttribute="bottom" secondItem="e5M-BU-Lub" secondAttribute="bottom" constant="12" id="p1l-0B-5ON"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zYa-4b-SRQ">
+                                <rect key="frame" x="20" y="124" width="353" height="679"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOy-CE-NTt">
+                                        <rect key="frame" x="20" y="20" width="313" height="49"/>
+                                        <string key="text">This form can only be completed
+by medical professional. Only doctors
+and pharmacist should fill in their info.</string>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6li-qr-UkE">
+                                        <rect key="frame" x="20" y="89" width="313" height="140"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="i0n-Mo-xz1">
+                                                <rect key="frame" x="0.0" y="0.0" width="313" height="20"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Aqs-rO-w79">
+                                                        <rect key="frame" x="0.0" y="0.0" width="151.66666666666666" height="20"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXp-eb-1AB">
+                                                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="MKC-hH-Oxm"/>
+                                                                    <constraint firstAttribute="width" constant="20" id="ehe-ur-0Oi"/>
+                                                                </constraints>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" image="uncheckDoc"/>
+                                                                <state key="selected" image="checkDoc"/>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a Doctor" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7J-pW-Nug">
+                                                                <rect key="frame" x="30.000000000000007" y="0.0" width="121.66666666666669" height="20"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jqN-aE-c0C">
+                                                        <rect key="frame" x="161.66666666666663" y="0.0" width="151.33333333333337" height="20"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ipg-nF-Ztn">
+                                                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="20" id="FAa-m0-sab"/>
+                                                                    <constraint firstAttribute="height" constant="20" id="R8d-WU-1Bl"/>
+                                                                </constraints>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" image="uncheckDoc"/>
+                                                                <state key="selected" image="checkDoc"/>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a Dentist" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INv-eC-UJc">
+                                                                <rect key="frame" x="29.999999999999993" y="2" width="121.33333333333331" height="16.333333333333332"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="txT-6T-YO1">
+                                                <rect key="frame" x="0.0" y="40" width="313" height="20"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4Q-wT-xRC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="20" id="ePh-8L-pf0"/>
+                                                            <constraint firstAttribute="height" constant="20" id="kjz-W9-Taf"/>
+                                                        </constraints>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="uncheckDoc"/>
+                                                        <state key="selected" image="checkDoc"/>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a Nurse (LPN)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64E-qT-06V">
+                                                        <rect key="frame" x="30" y="0.0" width="283" height="20"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="q4f-l5-q8R">
+                                                <rect key="frame" x="0.0" y="80" width="313" height="20"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jeh-Et-yC5">
+                                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="7Pl-jp-NVi"/>
+                                                            <constraint firstAttribute="width" constant="20" id="Ybe-FK-xQ4"/>
+                                                        </constraints>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="uncheckDoc"/>
+                                                        <state key="selected" image="checkDoc"/>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a Nurse (NP)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zH-wS-B4W">
+                                                        <rect key="frame" x="30" y="0.0" width="283" height="20"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wIc-rn-nwW">
+                                                <rect key="frame" x="0.0" y="120" width="313" height="20"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxs-UH-Hpa">
+                                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="20" id="Mtn-CT-2RL"/>
+                                                            <constraint firstAttribute="height" constant="20" id="hwC-Uv-8O3"/>
+                                                        </constraints>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="uncheckDoc"/>
+                                                        <state key="selected" image="checkDoc"/>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a Pharmacist" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sn6-I5-6Uu">
+                                                        <rect key="frame" x="30" y="0.0" width="283" height="20"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uploadePicDoctor" translatesAutoresizingMaskIntoConstraints="NO" id="dJF-Ry-HXQ">
+                                        <rect key="frame" x="20" y="259" width="140" height="140"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="Xhn-LV-5OT"/>
+                                            <constraint firstAttribute="height" constant="140" id="yFj-nf-qbs"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="70"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgGallary" translatesAutoresizingMaskIntoConstraints="NO" id="Edp-Mw-DQ0">
+                                        <rect key="frame" x="200" y="279" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="CVD-rz-7Ul"/>
+                                            <constraint firstAttribute="height" constant="40" id="mvX-Y3-0dR"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgCamera" translatesAutoresizingMaskIntoConstraints="NO" id="FuJ-6c-4V6">
+                                        <rect key="frame" x="200" y="339" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="sAf-vA-Usf"/>
+                                            <constraint firstAttribute="width" constant="40" id="wXg-Zw-YqH"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="JOy-CE-NTt" firstAttribute="top" secondItem="zYa-4b-SRQ" secondAttribute="top" constant="20" id="7LM-M5-Bbo"/>
+                                    <constraint firstItem="Edp-Mw-DQ0" firstAttribute="leading" secondItem="dJF-Ry-HXQ" secondAttribute="trailing" constant="40" id="7jY-VI-P7y"/>
+                                    <constraint firstItem="dJF-Ry-HXQ" firstAttribute="top" secondItem="6li-qr-UkE" secondAttribute="bottom" constant="30" id="92W-X6-pYX"/>
+                                    <constraint firstItem="dJF-Ry-HXQ" firstAttribute="leading" secondItem="zYa-4b-SRQ" secondAttribute="leading" constant="20" id="GSX-h3-tad"/>
+                                    <constraint firstItem="6li-qr-UkE" firstAttribute="leading" secondItem="zYa-4b-SRQ" secondAttribute="leading" constant="20" id="I1x-Yb-mMJ"/>
+                                    <constraint firstItem="Edp-Mw-DQ0" firstAttribute="top" secondItem="dJF-Ry-HXQ" secondAttribute="top" constant="20" id="LNb-7R-ljV"/>
+                                    <constraint firstItem="FuJ-6c-4V6" firstAttribute="top" secondItem="Edp-Mw-DQ0" secondAttribute="bottom" constant="20" id="OdQ-y4-5ms"/>
+                                    <constraint firstItem="JOy-CE-NTt" firstAttribute="centerX" secondItem="zYa-4b-SRQ" secondAttribute="centerX" id="Ovy-9F-AXW"/>
+                                    <constraint firstItem="FuJ-6c-4V6" firstAttribute="centerX" secondItem="Edp-Mw-DQ0" secondAttribute="centerX" id="XDu-zT-46e"/>
+                                    <constraint firstAttribute="trailing" secondItem="6li-qr-UkE" secondAttribute="trailing" constant="20" id="dG7-aU-YIx"/>
+                                    <constraint firstItem="FuJ-6c-4V6" firstAttribute="leading" secondItem="Edp-Mw-DQ0" secondAttribute="leading" id="f5Z-Wu-uKs"/>
+                                    <constraint firstItem="6li-qr-UkE" firstAttribute="top" secondItem="JOy-CE-NTt" secondAttribute="bottom" constant="20" id="f7x-dj-74J"/>
+                                    <constraint firstAttribute="trailing" secondItem="JOy-CE-NTt" secondAttribute="trailing" constant="20" id="qUM-cI-yTe"/>
+                                    <constraint firstItem="JOy-CE-NTt" firstAttribute="leading" secondItem="zYa-4b-SRQ" secondAttribute="leading" constant="20" id="tBe-d6-trv"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zVm-Uh-bPz"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="w8E-Yi-JKU" firstAttribute="leading" secondItem="zVm-Uh-bPz" secondAttribute="leading" id="26N-6w-JzJ"/>
+                            <constraint firstItem="zVm-Uh-bPz" firstAttribute="trailing" secondItem="zYa-4b-SRQ" secondAttribute="trailing" constant="20" id="5vS-N8-45c"/>
+                            <constraint firstItem="zVm-Uh-bPz" firstAttribute="top" secondItem="w8E-Yi-JKU" secondAttribute="bottom" constant="-50" id="6KC-hP-6dB"/>
+                            <constraint firstItem="zYa-4b-SRQ" firstAttribute="leading" secondItem="zVm-Uh-bPz" secondAttribute="leading" constant="20" id="9Fw-ta-rRk"/>
+                            <constraint firstItem="zYa-4b-SRQ" firstAttribute="top" secondItem="w8E-Yi-JKU" secondAttribute="bottom" constant="15" id="DHt-vd-yLl"/>
+                            <constraint firstItem="zVm-Uh-bPz" firstAttribute="trailing" secondItem="w8E-Yi-JKU" secondAttribute="trailing" id="PPT-eR-OjX"/>
+                            <constraint firstItem="zVm-Uh-bPz" firstAttribute="bottom" secondItem="zYa-4b-SRQ" secondAttribute="bottom" constant="15" id="gm7-dL-iIc"/>
+                            <constraint firstItem="w8E-Yi-JKU" firstAttribute="top" secondItem="EUJ-5h-UtP" secondAttribute="top" id="kEE-oY-7d7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="of5-fp-Nu5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2631.2977099236641" y="26.056338028169016"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="24" height="21"/>
+        <image name="checkDoc" width="10" height="10"/>
+        <image name="imgCamera" width="26" height="25"/>
+        <image name="imgGallary" width="27" height="27"/>
+        <image name="uncheckDoc" width="22" height="22"/>
+        <image name="uploadePicDoctor" width="140" height="140"/>
+    </resources>
+</document>

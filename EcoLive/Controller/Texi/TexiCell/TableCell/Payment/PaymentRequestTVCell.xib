@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PaymentRequestTVCell" id="KGk-i7-Jjw" customClass="PaymentRequestTVCell" customModule="DemoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="460" height="121"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="460" height="121"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T8h-5M-lOg">
+                        <rect key="frame" x="5" y="10" width="450" height="101"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="py5-cj-Esg">
+                                <rect key="frame" x="5" y="5" width="440" height="96"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demouser" translatesAutoresizingMaskIntoConstraints="NO" id="clS-PH-U4X">
+                                        <rect key="frame" x="14" y="36" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="4WY-qT-UwA"/>
+                                            <constraint firstAttribute="width" constant="24" id="BJR-QH-0yg"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arlene McCoy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWG-Oz-wh6">
+                                        <rect key="frame" x="45.999999999999993" y="5" width="100.33333333333331" height="86"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44l-Kp-2zp">
+                                        <rect key="frame" x="408" y="37" width="22" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="22" id="YK4-vX-cae"/>
+                                            <constraint firstAttribute="height" constant="22" id="hIE-CB-8o8"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="xWG-Oz-wh6" firstAttribute="top" secondItem="py5-cj-Esg" secondAttribute="top" constant="5" id="4pS-nm-PRZ"/>
+                                    <constraint firstItem="clS-PH-U4X" firstAttribute="centerY" secondItem="py5-cj-Esg" secondAttribute="centerY" id="B7H-np-Lil"/>
+                                    <constraint firstItem="xWG-Oz-wh6" firstAttribute="leading" secondItem="clS-PH-U4X" secondAttribute="trailing" constant="8" id="Pan-ys-p0G"/>
+                                    <constraint firstAttribute="trailing" secondItem="44l-Kp-2zp" secondAttribute="trailing" constant="10" id="Qhg-Uk-fIK"/>
+                                    <constraint firstItem="44l-Kp-2zp" firstAttribute="centerY" secondItem="clS-PH-U4X" secondAttribute="centerY" id="TT5-Ge-alV"/>
+                                    <constraint firstItem="clS-PH-U4X" firstAttribute="leading" secondItem="py5-cj-Esg" secondAttribute="leading" constant="14" id="bg2-JN-bIS"/>
+                                    <constraint firstItem="xWG-Oz-wh6" firstAttribute="centerY" secondItem="py5-cj-Esg" secondAttribute="centerY" id="e6U-vE-sDX"/>
+                                    <constraint firstAttribute="bottom" secondItem="xWG-Oz-wh6" secondAttribute="bottom" constant="5" id="h5S-bn-CWT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="py5-cj-Esg" firstAttribute="leading" secondItem="T8h-5M-lOg" secondAttribute="leading" constant="5" id="5Ku-Pt-Nin"/>
+                            <constraint firstAttribute="trailing" secondItem="py5-cj-Esg" secondAttribute="trailing" constant="5" id="7Ik-jz-xM7"/>
+                            <constraint firstAttribute="bottom" secondItem="py5-cj-Esg" secondAttribute="bottom" id="8af-nq-ivr"/>
+                            <constraint firstItem="py5-cj-Esg" firstAttribute="top" secondItem="T8h-5M-lOg" secondAttribute="top" constant="5" id="kTF-eT-BRI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="T8h-5M-lOg" secondAttribute="bottom" constant="10" id="6tE-Iu-vcK"/>
+                    <constraint firstItem="T8h-5M-lOg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="PwG-XW-obr"/>
+                    <constraint firstItem="T8h-5M-lOg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Ytr-Sq-jcu"/>
+                    <constraint firstAttribute="trailing" secondItem="T8h-5M-lOg" secondAttribute="trailing" constant="5" id="xeK-Ux-IsM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="clickbtn" destination="44l-Kp-2zp" id="bJD-C1-TGe"/>
+                <outlet property="mainV" destination="T8h-5M-lOg" id="XfT-qj-vhA"/>
+            </connections>
+            <point key="canvasLocation" x="238.46153846153845" y="-6.0426540284360186"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="demouser" width="42" height="42"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

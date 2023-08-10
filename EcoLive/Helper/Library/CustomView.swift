@@ -1,0 +1,50 @@
+//
+//  CustomView.swift
+//  Mzadi
+//
+//  Created by Emizentech on 03/09/21.
+//
+
+import UIKit
+
+@IBDesignable
+public class Gradient: UIView {
+    @IBInspectable var startColor:   UIColor = .black { didSet { updateColors() }}
+//    @IBInspectable var endColor:   UIColor = .clear { didSet { endupdateColors() }}
+    @IBInspectable var startLocation: Double =   0.05 { didSet { updateLocations() }}
+    @IBInspectable var endLocation:   Double =   0.95 { didSet { updateLocations() }}
+    @IBInspectable var horizontalMode:  Bool =  false { didSet { updatePoints() }}
+    @IBInspectable var diagonalMode:    Bool =  false { didSet { updatePoints() }}
+
+    override public class var layerClass: AnyClass { CAGradientLayer.self }
+
+    var gradientLayer: CAGradientLayer { layer as! CAGradientLayer }
+
+    func updatePoints() {
+        if horizontalMode {
+            gradientLayer.startPoint = diagonalMode ? .init(x: 1, y: 0) : .init(x: 0, y: 0.5)
+            gradientLayer.endPoint   = diagonalMode ? .init(x: 0, y: 1) : .init(x: 1, y: 0.5)
+        } else {
+            gradientLayer.startPoint = diagonalMode ? .init(x: 0, y: 0) : .init(x: 0.5, y: 0)
+            gradientLayer.endPoint   = diagonalMode ? .init(x: 1, y: 1) : .init(x: 0.5, y: 1)
+        }
+    }
+    func updateLocations() {
+        gradientLayer.locations = [startLocation as NSNumber, endLocation as NSNumber]
+    }
+    func updateColors() {
+        gradientLayer.colors = [startColor.withAlphaComponent(0.009).cgColor,startColor.withAlphaComponent(0.5).cgColor,startColor.withAlphaComponent(0.9).cgColor]
+    }
+    
+//    func endupdateColors() {
+//        gradientLayer.colors = [endColor.withAlphaComponent(0.09).cgColor,endColor.withAlphaComponent(0.5).cgColor,endColor.withAlphaComponent(0.2).cgColor]
+//    }
+    override public func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        updatePoints()
+        updateLocations()
+        updateColors()
+       
+    }
+
+}

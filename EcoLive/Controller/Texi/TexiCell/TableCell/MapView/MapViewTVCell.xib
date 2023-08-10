@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MapViewTVCell" rowHeight="182" id="KGk-i7-Jjw" customClass="MapViewTVCell" customModule="DemoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="182"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="182"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8RP-dN-OLo">
+                        <rect key="frame" x="0.0" y="0.0" width="437" height="160"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hfy-JR-lfV">
+                                <rect key="frame" x="0.0" y="0.0" width="437" height="160"/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Hfy-JR-lfV" secondAttribute="trailing" id="7vo-Ge-mNV"/>
+                            <constraint firstItem="Hfy-JR-lfV" firstAttribute="top" secondItem="8RP-dN-OLo" secondAttribute="top" id="JAu-vf-HCm"/>
+                            <constraint firstAttribute="bottom" secondItem="Hfy-JR-lfV" secondAttribute="bottom" id="Pst-Pg-Nav"/>
+                            <constraint firstItem="Hfy-JR-lfV" firstAttribute="leading" secondItem="8RP-dN-OLo" secondAttribute="leading" id="llJ-x2-suO"/>
+                            <constraint firstAttribute="height" constant="160" id="sKV-4G-5AO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="8RP-dN-OLo" secondAttribute="bottom" id="3vq-rM-DMq"/>
+                    <constraint firstItem="8RP-dN-OLo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Aot-0P-n1V"/>
+                    <constraint firstItem="8RP-dN-OLo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="SRq-Go-J9N"/>
+                    <constraint firstAttribute="trailing" secondItem="8RP-dN-OLo" secondAttribute="trailing" id="Ws7-mn-cVW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mainV" destination="8RP-dN-OLo" id="UXq-Nc-UtS"/>
+                <outlet property="mapView" destination="Hfy-JR-lfV" id="LTs-Ov-whH"/>
+                <outlet property="mapViewHeight" destination="sKV-4G-5AO" id="FtK-pj-ob8"/>
+            </connections>
+            <point key="canvasLocation" x="197.69230769230768" y="15.639810426540283"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
